@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+body{
+  margin: 0px;
+  background: linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+              linear-gradient(63deg, transparent 74%, #999 78%),
+              linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
+              #444;
+  background-size: 16px 48px;		  
+  /*background-size:contain;*/
+  background-repeat:no repeat;
+}
+#header{
+  height: 100px;
+  width: 97%;
+  Background-color: blue;
+  border: purple dotted 5px;
+  color: white;
+  margin: 10px;
+  font-family: Montserrat;
+  padding-top: 10px;
+}
+#content{
+  height: 400px;
+  width: 100%px;
+  color: white;
+}
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  border-radius: 30%;
+}
+#Link1{
+  height: 100px;
+  width:98%;
+  background-color: pink;
+  margin: 10px;
+  border: purple dotted 5px;
+  color: black;
+  padding-top: 5px;
+}
+#Link2{
+  height: 100px;
+  width:98%;
+  background-color: pink;
+  margin: 10px;
+  border: purple dotted 5px;
+  color: black;
+  padding-top: 5px; 
+  }
+#Link3{
+  height: 100px;
+  width:98%;
+  background-color: pink;
+  margin: 10px;
+  border: purple dotted 5px;
+  color: black;
+  padding-top: 5px; 
+}
+
+#Table{
+  height: 169px;
+  width: 96%;
+  background-color: pink;
+  margin: 20px;
+  border: blue solid 5px;
+}	
+tr:nth-child(even) {background-color: #f2f2f2;
